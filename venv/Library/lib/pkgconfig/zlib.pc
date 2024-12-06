@@ -1,0 +1,13 @@
+prefix=D:/DEEP_LEARNING_PROJECTS/churn_modelling/venv/Library
+exec_prefix=D:/DEEP_LEARNING_PROJECTS/churn_modelling/venv/Library
+libdir=D:/DEEP_LEARNING_PROJECTS/churn_modelling/venv/Library/lib
+sharedlibdir=D:/DEEP_LEARNING_PROJECTS/churn_modelling/venv/Library/lib
+includedir=D:/DEEP_LEARNING_PROJECTS/churn_modelling/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
